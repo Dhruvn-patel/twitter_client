@@ -5,7 +5,7 @@ import { CiBookmark, CiHeart } from "react-icons/ci";
 const FeedCard = () => {
   return (
     <div>
-      <div className=" grid grid-cols-12 border border-slate-800 border-l-0 border-r-0">
+      <div className="grid grid-cols-12 border border-slate-800 border-l-0 border-r-0 p-2">
         <div className="col-span-1 mb-2 mt-1 ml-1">
           <Image
             className="text-4xl"
@@ -36,8 +36,8 @@ const FeedCard = () => {
             </div>
             <div>
               <CiBookmark />
-            </div>
-          </div>
+            </div>  
+          </div>  
         </div>
       </div>
     </div>
